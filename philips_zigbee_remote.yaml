@@ -1,5 +1,5 @@
 blueprint:
-  name: Philips Dimmer Remote
+  name: Philips Dimmer Remote RWL021
   description: 'Control lights with a Philips Hue Dimmer Switch.
 
 
@@ -27,7 +27,7 @@ blueprint:
         device:
           integration: zha
           manufacturer: Philips
-          model: RWL020
+          model: RWL021
     single_light:
       name: Single Press Light
       description: The light(s) to control with single press
